@@ -1,0 +1,27 @@
+.panel .sections .menu li a.active {
+  padding: 0.8em;
+  border: 2px solid #fff;
+  opacity: 1;
+}
+
+.desktop .hoverZoom.greyImage {
+  filter: grayscale(100%);
+}
+
+.desktop .hoverZoom {
+  transition: all 0.5s 0s;
+}
+
+.desktop .hoverZoom:hover {
+  filter: none;
+  transform: scale(1.125);
+}
+
+.microUppercase {
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+.popup.maxscreen .container .wrap {
+  padding: 18px 18px;
+}
