@@ -2,7 +2,7 @@
   "functions": {
   "api/*.php": {
     "runtime": "vercel-php@0.3.1",
-    "excludeFiles": "assets/vid/**"
+    "excludeFiles": "assets/vid/City.mp4"
   }
 }
 }
