@@ -1,8 +1,11 @@
+
 {
   "functions": {
-  "api/*.php": {
-    "runtime": "vercel-php@0.3.1",
-    "excludeFiles": "assets/**"
-  }
-}
+    "api/*.php": {
+      "runtime": "vercel-php@0.3.1"
+    }
+  },
+  "routes": [
+    { "src": "/(.*)",  "dest": "/Home.html" }
+  ]
 }
